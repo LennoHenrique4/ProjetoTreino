@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(141, 138, 138);
+    background-color: rgba(156, 106, 52, 0.8);
+    color: floralwhite;
+    padding: 20px 0;
+    font-size:39px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 35px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:floralwhite;
+    font-size: 37px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+
+    background-image: url(./imagens/dog-cat-cuddles.webp);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
